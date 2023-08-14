@@ -162,7 +162,7 @@ body{
     background-color: #DBC1AC;
     padding: 30px; 
     color: #000;
-    font-family: roboto;
+    font-family: Roboto;
 }
 
 
@@ -170,6 +170,7 @@ body{
     font-size: 30px; 
     letter-spacing: 3px;
     color: #000;
+    font-family: Roboto;
 }
 
 .subjects { 
@@ -213,6 +214,7 @@ h4{
     display:flex;
     flex-wrap: wrap; 
     margin-top: 10px;
+    font-family: Roboto;
 }
 
 input[class="inputsearch"] {
