@@ -1,0 +1,233 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+.nav { 
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;  
+    color: black; 
+}
+
+a[class="nav"]:hover {
+    background-color: #ECE0D1; 
+    padding: 10px; 
+    border-radius: 3px; 
+}
+
+.topnav { 
+    background-color:  #DBC1AC; 
+    text-align: center;
+    justify-content: center;
+    padding: 30px; 
+    margin: 0%;
+}
+
+
+
+/* logo section design */  
+.logo{
+    width: 210px;
+    height: auto;
+    max-height: 1000%;
+        max-width: 1000%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 200px;
+}
+
+.cafe-image{
+    width: 100%;
+}
+
+/* about section design */
+
+body{
+    background-color: #DBC1AC;
+}
+
+.about-section {
+    padding: 100px;
+    text-align: center;
+    color: rgb(28, 32, 37);
+    font-size: x-large;
+    font-family: Roboto;
+  }
+
+  a:-webkit-any-link{
+    text-decoration:none !important;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+
+      .row{
+        padding: 10;
+      }
+
+.col{
+    font-family: roboto;
+    color: rgb(28, 32, 37);
+    flex-direction: column;
+    
+}
+
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+/*location section design*/
+* {
+    box-sizing: border-box;
+  }
+
+  .location-title{
+    padding: 5 10 20 0;
+  }
+
+  .title{
+    font-size: xx-large;
+  }
+
+  .location-text{
+    font-size: large;
+  }
+
+  .item {
+    display: inline-block;
+    padding: 100 50 100 50;
+    color:rgb(28, 32, 37);
+    font-family: roboto;
+  }
+  
+  /* on PC */
+  @media screen and (min-width: 550px) {
+    .featured-image {
+      float: left;
+      width: 40%;
+      padding-right: 15px;
+    }
+    .featured-image img {
+      width: 100%;
+    }
+    .description {
+      float: left;
+      width: 60%;
+    }
+  }
+  /* on Mobile */
+  @media screen and (max-width: 550px) {
+    .featured-image {
+      width: 100%;
+    }
+    .featured-image img {
+      width: 100%;
+    }
+    .description {
+      width: 100%;
+    }
+  }
+
+
+/* footer design */ 
+
+.footer-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.footer { 
+    background-color: #DBC1AC;
+    padding: 30px; 
+    color: #000;
+}
+
+.footer-title { 
+    font-size: 30px; 
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.subjects { 
+    display: flex;
+    justify-content: space-around;
+    gap: 40px; 
+    margin-top: 40px; 
+    flex-wrap: wrap; 
+    color: #000;
+}
+
+h4{
+    color: #000;
+}
+
+
+.hours{
+    margin-top: 15px;
+    color: #000;
+}
+
+.list { 
+    list-style: none;
+    margin-top: 12px;
+    color: #000;
+}
+
+.contact-us { 
+    flex-wrap: wrap; 
+}
+.footer-option {
+    text-decoration: none;
+    color: black; 
+}
+
+.footer-option:hover  {
+    text-decoration: underline; 
+}
+
+.sign-up { 
+    display:flex;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+}
+
+input[class="inputsearch"] {
+    border: 1px solid rgb(165, 165, 165);
+    
+}
+
+button[id="signup"] { 
+    background-color: rgb(103, 103, 103);
+    border:  rgb(103, 103, 103);
+    
+}
+
+button[id="signup"]:hover { 
+    background-color: rgb(177, 177, 177);
+    border:  rgb(177, 177, 177);
+}
+
+@media only screen and (max-width: 400px) { 
+
+} 
+
+a:-webkit-any-link{
+    text-decoration:none !important;
+    }
+
