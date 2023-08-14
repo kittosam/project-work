@@ -1,29 +1,39 @@
-* { 
-    margin: 0; 
-    padding: 0; 
-    font-family: 'Roboto', sans-serif;
-}
-.nav { 
-    text-decoration: none;
-    padding: 10px;
-    margin: 15px;  
-    color: black; 
-}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #DBC1AC;
+    overflow: hidden;
+    font-family: roboto;
+    font-weight: bold;
 
-a[class="nav"]:hover {
-    background-color: #ECE0D1; 
-    padding: 10px; 
-    border-radius: 3px; 
-}
-
-.topnav { 
-    background-color:  #DBC1AC; 
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
     text-align: center;
-    justify-content: center;
-    padding: 30px; 
-    margin: 0%;
-}
-
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
 
 
 /* logo section design */  
