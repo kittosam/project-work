@@ -36,15 +36,15 @@
 .logo{
     width: 210px;
     height: auto;
-    max-height: 1000%;
-        max-width: 1000%;
+    max-height: 400px;
+        max-width: 400px;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         margin: auto;
-        margin-top: 200px;
+        margin-top: 100px;
 }
 
 .cafe-image{
