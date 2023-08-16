@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewpoint" content="width=device-width, inital-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Pacifico&family=Patua+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="order.css">
+
+      <title>Buy our bakes</title>
+  </head>
+
+
+<body>
+  <!-- <header class="topnav">
+   <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#order" class="active">Order</a></li>
+    <li><a href="#visitus">Visit us</a></li>
+    <div id="basket"><button class="button" onclick="myNotification()"><i class="fa fa-shopping-basket"></i><span id="item-count">0</span></button>
+  </div>
+  </ul> -->
+  <div class="topnav" id="myTopnav">
+    <a href="home.html">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#order" class="active">Order</a>
+    <a href="#visitus">Visit Us</a>
+    <button class="button" onclick="myNotification()"><i class="fa fa-shopping-basket"></i><span id="item-count" href="javascript:void(0);">0</span></button>
+    </a>
+  </div>
+
+  <h2 class="intro">Welcome to the order page</h2>
+  <p class="text">Welcome to our bakery's order page, where the magic of baking comes to life in every delicious treat.<br>Prepare your taste buds for a symphony of flavors, textures, and aromas that are sure to delight and satisfy. 
+    Here, you'll find a wide array of freshly baked goods crafted with love and expertise. </p>
+    <p class="text">Your satisfaction is our top priority, and we can't wait to bring a smile to your face with every bite. 
+    <br>If you have any special requests or dietary considerations, feel free to reach out to our friendly customer support team</br></p>
+    
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="brownies.jpeg" alt="brownies">
+      <h2>Brownies</h2>
+      <p>£5.99</p>
+      <p><button onclick="brownies()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="flapjacks.jpeg" alt="flapjacks">
+      <h2>Flapjacks</h2>
+      <p>£5.99</p>
+      <p><button onclick="flapjacks()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="macarons.jpeg" alt="macarons">
+      <h2>Macarons</h2>
+      <p>£5.99</p>
+      <p><button onclick="macarons()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="https://www.errenskitchen.com/wp-content/uploads/2014/03/victoria-sponge-e1531933551224.jpg" alt="victoria sponge cake">
+      <h2>Victoria Sponge Cake</h2>
+      <p>£5.99</p>
+      <p><button onclick="victoria()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="almond crossiant .jpeg" alt="brownies">
+      <h2>Almond Crossiant</h2>
+      <p>£5.99</p>
+      <p><button onclick="almond()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="strawberry-cheesecake.jpeg" alt="brownies">
+      <h2>Strawberry Cheesecake</h2>
+      <p>£5.99</p>
+      <p><button onclick="strawberrycheesecake()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="cinnamon roll.jpeg" alt="flapjacks!">
+      <h2>Cinnamon Rolls</h2>
+      <p>£5.99</p>
+      <p><button onclick="cinnamon()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="https://omnivorescookbook.com/wp-content/uploads/2021/04/200918_Hong-Kong-Egg-Tart_550.jpg" alt="macarons">
+      <h2>Hong Kong Egg Tarts</h2>
+      <p>£5.99</p>
+      <p><button onclick="tarts()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/12/BIB_Scones_1125.png" alt="macarons">
+      <h2>Classic Scones</h2>
+      <p>£5.99</p>
+      <p><button onclick="scones()" class="add-to-basket">Add to Basket</button></p>
+  </div>
+</div>
+</div>
+
+<!-- <div class="container">
+<div class="row">
+    <div class="col-sm">
+      <img src="almond crossiant .jpeg" alt="brownies">
+      <h2>Almond Crossiant</h2>
+      <p>£5.99</p>
+      <p><button onclick="almond()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="strawberry-cheesecake.jpeg" alt="brownies">
+      <h2>Strawberry Cheesecake</h2>
+      <p>£5.99</p>
+      <p><button onclick="strawberrycheesecake()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="cinnamon roll.jpeg" alt="flapjacks!">
+      <h2>Cinnamon Rolls</h2>
+      <p>£5.99</p>
+      <p><button onclick="cinnamon()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    <div class="col-sm">
+      <img src="https://omnivorescookbook.com/wp-content/uploads/2021/04/200918_Hong-Kong-Egg-Tart_550.jpg" alt="macarons">
+      <h2>Hong Kong Egg Tarts</h2>
+      <p>£5.99</p>
+      <p><button onclick="tarts()" class="add-to-basket">Add to Basket</button></p>
+    </div>
+    </div>
+  </div> 
+</div> -->
+<script>
+  function myNotification() {
+    alert(`You have ${itemCountElement.textContent = itemCount} items in your basket`)
+  }
+  function almond(){
+    alert("You added 1 Almond Crossiant to your basket")
+  }
+  function brownies() {
+    alert("You added 1 Brownies to your basket")
+  }
+
+  function macarons() {
+    alert("You added 1 Macarons to your basket")
+  }
+  function flapjacks() {
+    alert("You added 1 Flapjack to your basket")
+  }
+  function strawberrycheesecake() {
+    alert("You added 1 Strawberry Cheesecake to your basket")
+  }
+  function cinnamon() {
+    alert("You added 1 Cinnamon Roll to your basket")
+
+  }
+  function victoria() {
+    alert("You added 1 Victoria Sponge Cake to your basket")
+
+  }
+  function tarts() {
+    alert("You added 1 Hong Kong Egg Tart to your basket")
+
+  }
+  // Get the "Add to Basket" buttons
+const addToBasketButtons = document.querySelectorAll('.add-to-basket');
+
+// Get the item count element
+const itemCountElement = document.getElementById('item-count');
+
+// Initialize item count
+let itemCount = 0;
+
+// Add event listeners to each "Add to Basket" button
+addToBasketButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        itemCount++; // Increment item count
+        itemCountElement.textContent = itemCount; // Update the displayed count
+    });
+});
+</script>
+<footer class="footer">
+  <h3 class="footer-title">CODE FIRST CAFE</h3>
+  <div class="subjects">
+    <img src="CODE FIRST CAFE LOGO.png" class="footer-logo" alt="logo">
+      <div class="opening-hours"> 
+          <h4>Opening Hours</h4>
+          <div class="hours">
+              <h5>Monday-Friday</h5>
+              <p>9.00am-6.30pm</p>
+          </div>
+          <div class="hours">
+              <h5>Weekends</h5>
+              <p>9.00am-4.30pm</p>
+          </div>
+      </div>
+
+      <div class="find-us">
+          <h4>Find Us</h4>
+          <div class="list">
+              <li><a href="https://www.facebook.com/codefirstgirls" target="_blank" class="footer-option">Facebook</a></li>
+              <li><a href="https://www.instagram.com/codefirstgirls/" target="_blank" class="footer-option">Instagram</a></li>
+              <li><a href="mailto:codefirstgirls@example.com" class="footer-option">Email</a></li>
+          </div>
+          
+      </div>
+
+      <div class="contact-us">
+          <h4>Contact Us</h4>
+          <div class="contact">
+              <p>All enquires: hello@codefirstcafe.co.uk</p>
+              <p>PR: codefirstcafe@pr.com</p>
+          </div>
+          
+      </div>
+
+      <div class="legal">
+          <h4>Legal</h4>
+          <div class="list">
+              <li><a href="#" class="footer-option">Privacy Policy</a></li>
+              <li><a href="#" class="footer-option">Terms & Conditions</a></li>
+              <li><a href="#" class="footer-option">Reward Terms</a></li>
+          </div>
+      </div>
+
+  <div class = "subscribe">
+    <h4>Sign up to our newsletter</h4>
+    <label for="email"></label>
+    <div class="sign-up">
+        <!-- Button to open the modal -->
+<button onclick="document.getElementById('id01').style.display='block'" class="footer-button">Sign Up</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">x</span>
+<form class="modal-content" action="/action_page.php">
+<div class="container">
+<h1>Sign Up</h1>
+<p>Please fill in this form to create an account.</p>
+<hr>
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+
+<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+<div class="clearfix">
+<button type="submit" class="signup">Sign Up</button>
+<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+<script>
+
+  var modal = document.getElementById('id01');
+  
+  
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+</footer>
+</html>
+
+
+

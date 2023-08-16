@@ -1,0 +1,401 @@
+
+ /* applies to everything on the page */
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+/* header design 2 */
+
+.topnav {
+  background-color: #DBC1AC;
+  overflow: hidden;
+  font-family: 'Roboto';
+  font-weight: bold;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 16px;
+}    
+
+
+
+/* header design */
+/* .topnav { 
+  background-color:  #DBC1AC; 
+  text-align: center;
+  justify-content: center;
+  /* padding: 5px;  */
+
+/* body {
+  background-color: #fbf7f5;
+  height: 100vh;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 19px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 0px 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', serif;
+}
+
+a.active {
+  text-decoration: underline;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 22px;
+}    */
+
+
+
+/* main content design */
+body {
+  background-color: #fbf7f5;
+  height: 100vh;
+  margin: 0;
+}
+
+.intro{
+  text-align: center;
+  margin: 10px 0 0 0px;
+  padding: 10px;
+  max-width: 400ch;
+} 
+
+.text {
+  text-align: center;
+  padding: 10px;
+  max-width: 500ch;
+  flex-wrap: wrap;
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 50px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px; 
+}
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+ }   */
+
+img {
+  height: 300px;
+  width: 300px;
+} 
+
+
+.col-sm {
+  border: 15px solid #DBC1AC;
+  margin-bottom: 20px;
+} 
+
+.add-to-basket {
+  width: 100%;
+}
+
+
+
+/* footer */
+.footer-logo{
+  width: 100px;
+  height: 100px;
+}
+
+.footer { 
+  background-color: #DBC1AC;
+  padding: 30px; 
+  color: #000;
+  font-family: 'Roboto';
+}
+
+.footer-title { 
+  font-size: 30px; 
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.subjects { 
+  display: flex;
+  justify-content: space-around;
+  gap: 40px; 
+  margin-top: 40px; 
+  flex-wrap: wrap; 
+  color: #000;
+}
+
+h4{
+  color: #000;
+}
+
+
+.hours{
+  margin-top: 15px;
+  color: #000;
+}
+
+.list { 
+  list-style: none;
+  margin-top: 12px;
+  color: #000;
+}
+
+.contact-us { 
+  flex-wrap: wrap; 
+}
+.footer-option {
+  text-decoration: none;
+  color: black; 
+}
+
+.footer-option:hover  {
+  text-decoration: underline; 
+}
+
+.sign-up { 
+  display:flex;
+  flex-wrap: wrap; 
+  margin-top: 10px;
+}
+
+input[class="inputsearch"] {
+  border: 1px solid rgb(165, 165, 165);
+  
+}
+
+button[id="signup"] { 
+  background-color: rgb(103, 103, 103);
+  border:  rgb(103, 103, 103);
+  
+}
+
+button[id="signup"]:hover { 
+  background-color: rgb(177, 177, 177);
+  border:  rgb(177, 177, 177);
+}
+
+
+/* newsletter signup */
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.footer-button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.fotter-button:hover {
+  opacity:1;
+}
+
+.signup{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signup:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: grey;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #DBC1AC;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+/* For phones */
+/* @media (max-width: 767px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    padding: 15px;
+  }
+  .intro {
+    margin: 10px;
+    padding: 5px;
+  }
+  .container {
+    justify-content: center;
+  }
+} */
+
+/* For tablets */
+/* @media (min-width: 768px) and (max-width: 1023px) { */
+  /* Your tablet-specific styles here */
+
+
+/* For desktops */
+/* @media (min-width: 1024px) { */
+  /* Your desktop-specific styles here */
+
+
+/* TABLET VERSION */
+/* @media only screen and
+(min-width: 768px) {
+a 
+{
+  
+}
+}  */
+
+/* DESKTOP VERSION */
+ /* @media only screen and
+(min-width: 980px) {
+a {
+
+}
+}   */
