@@ -64,7 +64,7 @@ body {
   margin: 10px 0 0 0px;
   padding: 10px;
   max-width: 400ch;
-  font-size: 20px;
+  font-size: 45px;
 } 
 
 .text {
@@ -72,7 +72,7 @@ body {
   padding: 10px;
   max-width: 500ch;
   flex-wrap: wrap;
-  font-size: 16px;
+  font-size: 22px;
 } 
 
 .row {
@@ -104,6 +104,16 @@ img {
 
 .add-to-basket {
   width: 100%;
+  background-color: black;
+  color: white;
+  height: 5vh;
+  border-style: 20px;
+}
+
+.add-to-basket:hover {
+  opacity: 1;
+  background-color: #5e5d5d;
+  cursor: pointer;
 }
 
 
