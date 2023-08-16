@@ -31,6 +31,9 @@
     display: none;
   }
 
+/* logo section */
+
+
 .logo { 
     width: 150px;
     height: 150px; 
@@ -40,6 +43,7 @@
     color: rgb(79, 58, 58); 
     font-size: 50px;
     font-weight:bold; 
+    font-family: roboto;
 }
 
 .banner { 
@@ -58,10 +62,12 @@
     align-items: center;
     padding: 20px; 
     gap: 20px; 
+    font-family: roboto;
 }
 
 .searchbarlabel { 
     font-size: 20px;
+    font-family: roboto;
 }
 
 .inputsearch { 
@@ -91,7 +97,7 @@
     background-color: #9c8573;
 }
 
-/*Design of each cafe card */
+/* Design of each cafe card */
 
 .locations{ 
     display: flex;
@@ -100,6 +106,7 @@
     align-items: center;
     text-align: center;
     margin: 20px;
+    font-family: roboto;
 }
 
 .cafecard  {
@@ -145,7 +152,9 @@
     background-color: rgb(144, 119, 97); 
 }
 
-/* footer design */ 
+
+
+  /* footer design */ 
 
 .footer-logo{
     width: 100px;
