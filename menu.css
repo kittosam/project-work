@@ -1,0 +1,280 @@
+/* nav bar design */
+.topnav {
+    background-color: #DBC1AC;
+    overflow: hidden;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* menue heading*/
+section {
+    border: 2px solid #DBC1AC;
+    width: auto;
+    height: 200px;
+    background-color: #EFE3D9;
+    padding-top: 10px;
+    /* margin-top: 10px;*/  
+    flex-wrap: wrap;
+}
+
+.title-text-center {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+.logo{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 5px;
+      
+      
+}
+
+/* the menu images*/
+.menupic {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 27%;
+    margin-bottom: 10%;
+}
+
+/* logo section design   
+  .logo{
+    width: 210px;
+    height: auto;
+    max-height: 1000%;
+        max-width: 1000%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 200px;
+  }
+  */
+
+
+/* about section design */
+
+body {
+    background-color: #DBC1AC;
+}
+
+.about-section {
+    padding: 100px;
+    text-align: center;
+    color: rgb(28, 32, 37);
+    font-size: x-large;
+    font-family: Roboto;
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    padding: 10;
+}
+
+.col {
+    font-family: roboto;
+    color: rgb(28, 32, 37);
+    flex-direction: column;
+
+}
+
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 5%;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/*location section design*/
+* {
+    box-sizing: border-box;
+}
+
+.location-title {
+    padding: 5 10 20 0;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.location-text {
+    font-size: large;
+}
+
+.item {
+    display: inline-block;
+    padding: 100 50 100 50;
+    color: rgb(28, 32, 37);
+    font-family: roboto;
+}
+
+/* on PC */
+@media screen and (min-width: 550px) {
+    .featured-image {
+        float: left;
+        width: 40%;
+        padding-right: 15px;
+    }
+
+    .featured-image img {
+        width: 100%;
+    }
+
+    .description {
+        float: left;
+        width: 60%;
+    }
+}
+
+/* on Mobile */
+@media screen and (max-width: 550px) {
+    .featured-image {
+        width: 100%;
+    }
+
+    .featured-image img {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+}
+
+
+/* footer design */
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    background-color: #DBC1AC;
+    padding: 30px;
+    color: #000;
+    font-family: roboto;
+}
+
+.footer-title {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.subjects {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    color: #000;
+}
+
+h4 {
+    color: #000;
+}
+
+
+.hours {
+    margin-top: 15px;
+    color: #000;
+}
+
+.list {
+    list-style: none;
+    margin-top: 12px;
+    color: #000;
+}
+
+.contact-us {
+    flex-wrap: wrap;
+}
+
+.footer-option {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-option:hover {
+    text-decoration: underline;
+}
+
+.sign-up {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+input[class="inputsearch"] {
+    border: 1px solid rgb(165, 165, 165);
+
+}
+
+button[id="signup"] {
+    background-color: rgb(103, 103, 103);
+    border: rgb(103, 103, 103);
+
+}
+
+button[id="signup"]:hover {
+    background-color: rgb(177, 177, 177);
+    border: rgb(177, 177, 177);
+}
+
+@media only screen and (max-width: 400px) {}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
