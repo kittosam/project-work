@@ -64,6 +64,7 @@ body {
   margin: 10px 0 0 0px;
   padding: 10px;
   max-width: 400ch;
+  font-size: 20px;
 } 
 
 .text {
@@ -71,6 +72,7 @@ body {
   padding: 10px;
   max-width: 500ch;
   flex-wrap: wrap;
+  font-size: 16px;
 } 
 
 .row {
