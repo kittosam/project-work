@@ -1,0 +1,205 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+.nav { 
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;  
+    color: black; 
+}
+
+a[class="nav"]:hover {
+    background-color: #ECE0D1; 
+    padding: 10px; 
+    border-radius: 3px; 
+}
+
+.topnav { 
+    background-color:  #DBC1AC; 
+    text-align: center;
+    justify-content: center;
+    padding: 30px; 
+}
+
+.logo { 
+    width: 150px;
+    height: 150px; 
+}
+
+.ourlocation{
+    color: rgb(79, 58, 58); 
+    font-size: 50px;
+    font-weight:bold; 
+}
+
+.banner { 
+    padding: 40px;
+    background-color: #f6f0ea;
+    flex-grow: 1;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    gap: 20px; 
+}
+
+.searchbarlabel { 
+    font-size: 20px;
+}
+
+.inputsearch { 
+    width: 250px; 
+    height: 30px;
+    margin-right: 15px; 
+    outline: none;
+    border: 2px solid #DBC1AC; 
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.submitBtn { 
+    width: 100px;
+    height: 30px; 
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #DBC1AC; 
+    background-color: #DBC1AC;
+    color: white; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.searchBtn:hover { 
+    border: 1px solid #9c8573; 
+    background-color: #9c8573;
+}
+
+/*Design of each cafe card */
+
+.locations{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.cafecard  {
+    background-color: #DBC1AC;
+    width: 320px; 
+    height: 370px; 
+    padding: 10px 1px ;
+    text-align: center;
+    border-radius: 2px; 
+    margin: 10px; 
+}
+.cafeimage { 
+    width:300px; 
+    height: 220px;  
+}
+
+.address { 
+    padding: 10px; 
+    font-size: 20px;
+    color: rgb(255, 255, 255); 
+}
+
+.cafetitle { 
+    font-weight: bold;
+    padding: 10px; 
+    color: rgb(79, 58, 58); 
+}
+
+.infoBtn { 
+    width: 100px; 
+    height: 30px; 
+    outline: none; 
+    border: 1px solid white; 
+    background-color: white;
+    border-radius: 5px;
+    color: #DBC1AC;
+    font-weight: bold;
+    font-size: 15px; 
+}
+
+.infoBtn:hover { 
+    border: 1px solid rgb(144, 119, 97); 
+    background-color: rgb(144, 119, 97); 
+}
+
+/* footer design */ 
+
+.footer { 
+    background-color: #e8e8e8;
+    padding: 30px; 
+}
+
+.footer-title { 
+    font-size: 30px; 
+    letter-spacing: 3px;
+}
+
+.subjects { 
+    display: flex;
+    justify-content: space-around;
+    gap: 40px; 
+    margin-top: 40px; 
+    flex-wrap: wrap; 
+}
+
+.hours{
+    margin-top: 15px;
+}
+
+.list { 
+    list-style: none;
+    margin-top: 12px;
+}
+
+.contact-us { 
+    flex-wrap: wrap; 
+}
+.footer-option {
+    text-decoration: none;
+    color: black; 
+}
+
+.footer-option:hover  {
+    text-decoration: underline; 
+}
+
+.sign-up { 
+    display:flex;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+}
+
+input[class="inputsearch"] {
+    border: 1px solid rgb(165, 165, 165);
+    
+}
+
+button[id="signup"] { 
+    background-color: rgb(103, 103, 103);
+    border:  rgb(103, 103, 103);
+    
+}
+
+button[id="signup"]:hover { 
+    background-color: rgb(177, 177, 177);
+    border:  rgb(177, 177, 177);
+}
+
+@media only screen and (max-width: 400px) { 
+
+} 
